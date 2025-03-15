@@ -301,6 +301,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mink725/utils@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@mink725/utils@workspace:."
+  dependencies:
+    "@biomejs/biome": "npm:^1.9.4"
+    typescript: "npm:^5.8.2"
+    vitest: "npm:^3.0.8"
+  languageName: unknown
+  linkType: soft
+
 "@npmcli/agent@npm:^3.0.0":
   version: 3.0.0
   resolution: "@npmcli/agent@npm:3.0.0"
@@ -1223,16 +1233,6 @@ __metadata:
   checksum: 10c0/62e9ea70c7a3eb91d162d2c706b6606c041e4e7b547cbbb48f8b3695af457dd6479904d7ace600856bf923dd8d1ed0696f06195c8c20f02ac87c1da0e1d315ef
   languageName: node
   linkType: hard
-
-"npm-package@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "npm-package@workspace:."
-  dependencies:
-    "@biomejs/biome": "npm:^1.9.4"
-    typescript: "npm:^5.8.2"
-    vitest: "npm:^3.0.8"
-  languageName: unknown
-  linkType: soft
 
 "p-map@npm:^7.0.2":
   version: 7.0.3

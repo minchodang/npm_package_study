@@ -1,9 +1,27 @@
 {
-  "name": "npm-package",
-  "packageManager": "yarn@4.7.0",
+  "name": "@mink725/utils",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    },
+    "./delay": {
+      "types": "./dist/delay.d.ts",
+      "require": "./dist/delay.cjs",
+      "import": "./dist/delay.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "typescript": "^5.8.2",
     "vitest": "^3.0.8"
-  }
+  },
+  "packageManager": "yarn@4.7.0"
 }
