@@ -1,5 +1,6 @@
 {
   "name": "@mink725/utils",
+  "version": "0.0.0",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -15,11 +16,10 @@
       "import": "./dist/delay.js"
     }
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "bunchee": "^6.4.0",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2",
     "vitest": "^3.0.8"
