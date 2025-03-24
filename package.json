@@ -4,6 +4,10 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "bunchee",
+    "release": "changeset publish"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -19,6 +23,7 @@
   "files": ["dist"],
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@changesets/cli": "^2.28.1",
     "bunchee": "^6.4.0",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2",
